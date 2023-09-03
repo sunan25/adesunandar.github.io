@@ -1,4 +1,4 @@
-<?php
+ <?php
   /**
   * Requires the "PHP Email Form" library
   * The "PHP Email Form" library is available only in the pro version of the template
@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'official.artsunan@gmail.com';
+  /*  $receiving_email_address = 'official.artsunan@gmail.com';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -32,10 +32,10 @@
     'port' => '587'
   );
   */
-
+/*
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
-?>
+  echo $contact->send(); 
+?>  
